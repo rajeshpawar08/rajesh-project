@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style2.css" />
+    <title>Task 4</title>
+  </head>
+  <body>
+    <div class="header mx-0">
+      <div class="row w-100">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/icons/logo used in header.svg" alt="logo"
+            /></a>
+            <div class="d-flex flex-row order-2 order-lg-3">
+              <ul class="navbar-nav flex-row ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><img src="assets/icons/alerts.svg" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><img src="assets/icons/announcements.svg" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><img src="assets/icons/account_circle.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <button
+              class="navbar-toggler order-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse order-3 order-lg-2"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DASHBOARD</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTENT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">USERS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">REPORTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ADMIN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main area  -->
+    <div class="mainarea container">
+      <div class="row container text-center candc justify-content-center">
+        <div class="col" style="border-bottom: 4px solid #222222">
+          <img src="assets/icons/courses.svg" alt="Courses" />
+          <strong>4</strong> Courses
+        </div>
+        <div class="col">
+          <img src="assets/icons/classes.svg" alt="" />
+          <strong>4</strong> Classes
+        </div>
+      </div>
+      <div class="row d-flex flex-row">
+        <div class="col show1">Showing 4 of 4 courses</div>
+        <div class="col sort1 d-flex ms-auto text-end justify-content-end">
+          <div class="show1">Sort by:</div>
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Course name
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      .<div class="container-fluid">
+        
+        <div class="row">
+          <div class="col cards col-sm-12 col-md col-12">
+            <div class="imgmask">
+            </div>
+            <div class="alldata">
+              <div class="row ">Acceleration</div>
+              <div class="row"> <p class="show1 p-0 my-1">Physics | Grade 7+2</p> </div>
+              <div class="row"> <p class="show1 p-0 my-1"> <strong> 4 </strong> Units <strong>18</strong> lessons <strong>24</strong> Topics</p> </div>
+              <div class="row"> 
+                <div class="dropdown my-4">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >  Mr.Franks Class B
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></div>
+              <div class="row"><p class="show1">50 Students | 21-Jan-2020 -  21-Aug-2020</p></div>
+            </div>
+            <div class="foot">
+              <hr>
+              <div class="row d-flex m-auto justify-content-center">
+                <div class="col">
+                  <img src="assets/icons/preview.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/manage course.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/grade submissions.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/reports.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col cards col-sm-12 col-md col-12">
+            <div class="imgmask">
+            </div>
+            <div class="alldata">
+              <div class="row ">Acceleration</div>
+              <div class="row"> <p class="show1 p-0 my-1">Physics | Grade 7+2</p> </div>
+              <div class="row"> <p class="show1 p-0 my-1"> <strong> 4 </strong> Units <strong>18</strong> lessons <strong>24</strong> Topics</p> </div>
+              <div class="row"> 
+                <div class="dropdown my-4">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >  Mr.Franks Class B
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></div>
+              <div class="row"><p class="show1">50 Students | 21-Jan-2020 -  21-Aug-2020</p></div>
+            </div>
+            <div class="foot">
+              <hr>
+              <div class="row d-flex m-auto justify-content-center">
+                <div class="col">
+                  <img src="assets/icons/preview.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/manage course.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/grade submissions.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/reports.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col cards col-sm-12 col-md col-12">
+            <div class="imgmask">
+            </div>
+            <div class="alldata">
+              <div class="row ">Acceleration</div>
+              <div class="row"> <p class="show1 p-0 my-1">Physics | Grade 7+2</p> </div>
+              <div class="row"> <p class="show1 p-0 my-1"> <strong> 4 </strong> Units <strong>18</strong> lessons <strong>24</strong> Topics</p> </div>
+              <div class="row"> 
+                <div class="dropdown my-4">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >  Mr.Franks Class B
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></div>
+              <div class="row"><p class="show1">50 Students | 21-Jan-2020 -  21-Aug-2020</p></div>
+            </div>
+            <div class="foot">
+              <hr>
+              <div class="row d-flex m-auto justify-content-center">
+                <div class="col">
+                  <img src="assets/icons/preview.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/manage course.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/grade submissions.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/reports.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col cards col-sm-12 col-md col-12">
+            <div class="imgmask">
+            </div>
+            <div class="alldata">
+              <div class="row ">Acceleration</div>
+              <div class="row"> <p class="show1 p-0 my-1">Physics | Grade 7+2</p> </div>
+              <div class="row"> <p class="show1 p-0 my-1"> <strong> 4 </strong> Units <strong>18</strong> lessons <strong>24</strong> Topics</p> </div>
+              <div class="row"> 
+                <div class="dropdown my-4">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >  Mr.Franks Class B
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></div>
+              <div class="row"><p class="show1">50 Students | 21-Jan-2020 -  21-Aug-2020</p></div>
+            </div>
+            <div class="foot">
+              <hr>
+              <div class="row d-flex m-auto justify-content-center">
+                <div class="col">
+                  <img src="assets/icons/preview.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/manage course.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/grade submissions.svg" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/icons/reports.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="container d-flex justify-content-center">
+      About | Contact us
+    </div>
+    <div class="footer">
+      <footer
+        class="d-flex justify-content-center text-nowrap mx-0 text-center flex-flow-reverse w-100"
+      >
+        <div class="row">
+          <div class="col my-0">
+            <img
+              src="assets/icons/logo used in footer.svg"
+              alt="footer logo"
+              class="footerlogo"
+            />
+          </div>
+          <div class="col my-0 text-center">
+            Copyright &copy; 2020-2021
+            <strong>Zeus Systems Pvt. Ltd</strong> All rights reserved
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

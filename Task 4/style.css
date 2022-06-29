@@ -1,0 +1,49 @@
+@font-face {
+    font-family: quicksand;
+    src: url('assets/Quicksand\ font\ 1/Quicksand-variableFont_wght.ttf');
+}
+
+
+
+
+.header{
+    color: aliceblue;
+    background-image: url('assets/header\ pattern\ image.png');
+    border-bottom: 4px solid #3AC7EC;
+}
+.footer{
+    padding: 12px;
+   background-color: pink;
+}
+.footerlogo{
+    padding-right: 20px;
+    border-right: 2px solid beige;
+}
+.footer >footer> div{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color:#EEEEEE;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main{
+    background-color: #FFFFFF;
+    width: 488px;
+    height: 550px;
+    margin: 98px 100px;
+    font-family: quicksand;
+    font-weight: bold;
+    border-top: 4px solid #3AC7EC;
+}
+.textInput {
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue
+  }
+  a {
+color: green;
+  }
