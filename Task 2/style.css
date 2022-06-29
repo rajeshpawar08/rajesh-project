@@ -1,0 +1,25 @@
+ table,td{ 
+    border: 1px solid black;
+    background-color: gray;
+    color: black;
+}
+    body {
+        background-color: rgb(247, 247, 112);
+      }
+    .title{
+        background-color: red;
+        color: bisque;
+        text-align: center;
+        font-style: italic;
+
+     }
+    .titles{
+        background-color: green;
+        color: white;
+     }
+    .table{
+        color: grey;
+     }
+    .button{
+        background-color: grey;
+    }
