@@ -1,0 +1,20 @@
+.center{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;*/
+    
+    position: absolute;
+    right: 500px;
+    margin: 20px;
+    max-width: 100px;
+    height: 100px;
+    padding: 100px;
+    
+}
+.raj{
+    position: absolute;
+    right: 700px;
+    margin: 20px;
+}
