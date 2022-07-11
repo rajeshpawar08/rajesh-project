@@ -1,0 +1,8 @@
+{
+    "version":3,
+    "file":"dash.js",
+    "sourceRoot":"",
+    "sources":["dash.ts"],
+    "names":[],
+    "mappings":"AAAA,IAAM,QAAQ,GAAO,QAAQ,CAAC,aAAa,CAAC,WAAW,CAAC,CAAC;AACzD,IAAI,MAAM,GAAG,wwSAmQZ,CAAC;AAGF,QAAQ,CAAC,SAAS,GAAG,MAAM,CAAC"
+}
